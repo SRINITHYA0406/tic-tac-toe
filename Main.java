@@ -23,11 +23,6 @@ public class Main {
                 if (gameover){
                     System.out.println("player "+player+" has won he match.");
                 } else{
-                //     if(player =='X'){
-                //         player='O';
-                //     }else{
-                //         player='X';
-                //     }
                 player=(player=='X')?'O':'X';
                  }
             }else{
